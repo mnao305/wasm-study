@@ -1,6 +1,20 @@
 # 000 HelloWorld
 とりあえずHello worldしたいの会
 
+## DOM操作するうえで変更したこと
+`Cargo.toml`の`[dependencies.web-sys]`を下記の用に変更した
+```diff
+- features = ["console"]
++ features = ["console", "Window", "Document", "Element", "HtmlElement", "Node"]
+```
+
+## 参考
+- [RustでWebAssemblyやってみた。](https://medium.com/blockchain-engineer-blog/rust-webassembly-76dc05934eff)
+
+以下そのまま
+
+---
+
 ## How to install
 
 ```sh
