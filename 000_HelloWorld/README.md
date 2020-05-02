@@ -9,6 +9,7 @@
 ```
 
 ## 参考
+- [wasm-pack docs](https://rustwasm.github.io/docs/wasm-pack/)
 - [RustでWebAssemblyやってみた。](https://medium.com/blockchain-engineer-blog/rust-webassembly-76dc05934eff)
 
 以下そのまま
